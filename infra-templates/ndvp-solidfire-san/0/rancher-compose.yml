@@ -3,14 +3,6 @@
   version: "1.3.3"
   description: "NetApp Docker Volume Plugin (nDVP)"
   questions:
-    # Common settings
-    - variable: "STORAGE_PREFIX"
-      description: "Prefix for created storage objects"
-      label: "Storage Prefix"
-      required: false
-      default: "netappdvp-"
-      type: "string"
-
     - variable: "DEBUG_ENABLED"
       description: "Enable debugging output in logs"
       label: "Debug Logging"
